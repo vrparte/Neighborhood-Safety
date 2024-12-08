@@ -4,7 +4,8 @@ export default {
     './src/**/*.{html,svelte,js,ts}', // Scans all HTML, Svelte, JS, and TS files in the src directory
     './public/index.html', // Scans the main HTML file
   ],
-  theme: {
+  darkMode: 'class', // This enables dark mode
+  heme: {
     extend: {},
   },
   plugins: [],

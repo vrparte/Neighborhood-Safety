@@ -1,7 +1,11 @@
 <script>
+  import Navbar from './components/Navbar.svelte';
   import Dashboard from './components/Dashboard.svelte';
 </script>
 
-<main class="min-h-screen bg-gray-100 font-sans">
-  <Dashboard />
-</main>
+<div class="min-h-screen w-full flex flex-col bg-gray-100 dark:bg-gray-900">
+  <Navbar />
+  <main class="flex-grow w-full">
+    <Dashboard />
+  </main>
+</div>
