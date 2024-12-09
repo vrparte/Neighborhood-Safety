@@ -1,13 +1,8 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    './src/**/*.{html,svelte,js,ts}', // Scans all HTML, Svelte, JS, and TS files in the src directory
-    './public/index.html', // Scans the main HTML file
-  ],
+module.exports = {
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'class', // This enables dark mode
-  heme: {
+  theme: {
     extend: {},
   },
   plugins: [],
 }
-
